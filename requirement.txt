@@ -1,0 +1,8 @@
+torch
+transformers
+PyPDF2
+gradio
+pinecone-client
+requests
+pdfplumber
+PyPDF2
