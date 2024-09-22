@@ -59,6 +59,8 @@ pip install torch transformers gradio pinecone-client requests pdfplumber pandas
 ---
 
 ## **Model Pipeline**
+model cannot be uploaded directly to this repository hence, i have provided link for the saved model
+link: https://drive.google.com/file/d/1IAacKCRv5Rp6O-wHp-LaMbO4cpgSFQ-W/view?usp=sharing
 
 1. **PDF Processing**: Extract text from each page of the uploaded PDF using `PyPDF2` or `pdfplumber`.
 2. **Tokenization & Embedding Generation**: Tokenize the extracted text using BERT's `AutoTokenizer` and generate embeddings using `AutoModel`.
